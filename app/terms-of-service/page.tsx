@@ -20,7 +20,7 @@ export default function TermsOfServicePage() {
           <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
             Tyto obchodní podmínky upravují používání našich služeb automatizace procesů přes WhatsApp.
           </p>
-          <p className="text-sm text-muted-foreground">Poslední aktualizace: 20. září 2024</p>
+          <p className="text-sm text-muted-foreground">Poslední aktualizace: 20. září 2025</p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-8">
@@ -34,10 +34,8 @@ export default function TermsOfServicePage() {
             </CardHeader>
             <CardContent className="prose prose-gray max-w-none">
               <p>
-                Tyto obchodní podmínky (dále jen "Podmínky") upravují vztah mezi společností Replikanti s.r.o., se
-                sídlem [adresa], IČO: [IČO], zapsanou v obchodním rejstříku vedeném [rejstříkovým soudem] pod sp. zn.
-                [spisová značka] (dále jen "Poskytovatel" nebo "my") a uživateli našich služeb (dále jen "Zákazník" nebo
-                "vy").
+                Tyto obchodní podmínky (dále jen "Podmínky") upravují vztah mezi brandem Replikanti (dále jen
+                "Poskytovatel" nebo "my") a uživateli našich služeb (dále jen "Zákazník" nebo "vy").
               </p>
               <p>
                 Používáním našich služeb souhlasíte s těmito Podmínkami. Pokud s nimi nesouhlasíte, nepoužívejte naše
@@ -379,12 +377,12 @@ export default function TermsOfServicePage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 bg-muted/30 rounded-lg">
                     <h3 className="font-semibold mb-2">Obecné dotazy</h3>
-                    <p className="text-sm text-muted-foreground">info@replikanti.cz</p>
+                    <p className="text-sm text-muted-foreground">info@replikanti.xyz</p>
                     <p className="text-sm text-muted-foreground">+420 123 456 789</p>
                   </div>
                   <div className="p-4 bg-muted/30 rounded-lg">
                     <h3 className="font-semibold mb-2">Právní záležitosti</h3>
-                    <p className="text-sm text-muted-foreground">legal@replikanti.cz</p>
+                    <p className="text-sm text-muted-foreground">legal@replikanti.xyz</p>
                   </div>
                 </div>
               </div>
@@ -408,7 +406,7 @@ export default function TermsOfServicePage() {
                 </p>
                 <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">
                   <p className="text-sm text-muted-foreground">
-                    <strong>Účinnost:</strong> Tyto obchodní podmínky nabývají účinnosti dnem 20. září 2024.
+                    <strong>Účinnost:</strong> Tyto obchodní podmínky nabývají účinnosti dnem 20. září 2025.
                   </p>
                 </div>
               </div>

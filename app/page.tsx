@@ -214,11 +214,11 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <Badge variant="outline" className="w-fit">
-                O společnosti
+                O nás
               </Badge>
               <h2 className="text-3xl lg:text-5xl font-bold text-balance">Jsme experti na automatizaci</h2>
               <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
-                Replikanti je česká technologická společnost specializující se na automatizaci obchodních procesů. Naším
+                Replikanti je český technologický brand specializující se na automatizaci obchodních procesů. Naším
                 cílem je pomoci podnikům zvýšit efektivitu a ušetřit čas prostřednictvím inteligentních řešení.
               </p>
               <div className="grid grid-cols-2 gap-6">

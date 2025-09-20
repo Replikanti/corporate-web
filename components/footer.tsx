@@ -1,6 +1,9 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="bg-muted border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -8,13 +11,22 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">R</span>
-              </div>
+              <Image
+                src="/images/replikanti-logo.svg"
+                alt="Replikanti Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <span className="text-xl font-bold text-foreground">Replikanti</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Automatizace obchodních procesů pomocí WhatsApp pro moderní podnikání.
+            </p>
+            <p className="text-muted-foreground text-sm">
+              <Link href="https://replikanti.xyz" className="hover:text-primary transition-colors">
+                replikanti.xyz
+              </Link>
             </p>
           </div>
 
@@ -42,7 +54,7 @@ export function Footer() {
 
           {/* Company */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Společnost</h3>
+            <h3 className="font-semibold text-foreground">Brand</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="#o-nas" className="text-muted-foreground hover:text-primary transition-colors">
@@ -87,7 +99,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-muted-foreground text-sm">© 2024 Replikanti. Všechna práva vyhrazena.</p>
+            <p className="text-muted-foreground text-sm">© {currentYear} Replikanti. Všechna práva vyhrazena.</p>
             <p className="text-muted-foreground text-sm mt-2 md:mt-0">Vytvořeno s ❤️ v České republice</p>
           </div>
         </div>

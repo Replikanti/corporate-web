@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
             Vaše soukromí je pro nás prioritou. Zde najdete podrobné informace o tom, jak zpracováváme vaše osobní
             údaje.
           </p>
-          <p className="text-sm text-muted-foreground">Poslední aktualizace: 20. září 2024</p>
+          <p className="text-sm text-muted-foreground">Poslední aktualizace: 20. září 2025</p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-8">
@@ -35,10 +35,9 @@ export default function PrivacyPolicyPage() {
             </CardHeader>
             <CardContent className="prose prose-gray max-w-none">
               <p>
-                Společnost Replikanti s.r.o. (dále jen "my", "nás", "naše" nebo "Replikanti") respektuje vaše soukromí a
-                zavazuje se chránit vaše osobní údaje. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme,
-                používáme, sdílíme a chráníme vaše informace při používání našich služeb automatizace procesů přes
-                WhatsApp.
+                Brand Replikanti (dále jen "my", "nás", "naše" nebo "Replikanti") respektuje vaše soukromí a zavazuje se
+                chránit vaše osobní údaje. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme,
+                sdílíme a chráníme vaše informace při používání našich služeb automatizace procesů přes WhatsApp.
               </p>
             </CardContent>
           </Card>
@@ -305,7 +304,7 @@ export default function PrivacyPolicyPage() {
                     <Mail className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold">E-mail</h3>
-                      <p className="text-muted-foreground">privacy@replikanti.cz</p>
+                      <p className="text-muted-foreground">privacy@replikanti.xyz</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -320,7 +319,7 @@ export default function PrivacyPolicyPage() {
                   <h3 className="font-semibold mb-2">Pověřenec pro ochranu osobních údajů</h3>
                   <p className="text-muted-foreground">
                     Pro záležitosti týkající se ochrany osobních údajů můžete kontaktovat našeho pověřence na adrese:
-                    dpo@replikanti.cz
+                    dpo@replikanti.xyz
                   </p>
                 </div>
                 <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">

@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
+import Image from "next/image"
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -33,10 +34,14 @@ export function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">R</span>
-            </div>
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src="/images/replikanti-logo.svg"
+              alt="Replikanti Logo"
+              width={48}
+              height={48}
+              className="w-12 h-12"
+            />
             <span className="text-xl font-bold text-foreground">Replikanti</span>
           </Link>
 
