@@ -38,7 +38,7 @@ export default function HomePage() {
                     const message = encodeURIComponent(
                       "Dobrý den, mám zájem o Vaše služby. Můžeme si o tom pohovořit? Děkuji.",
                     )
-                    const phoneNumber = "420123456789"
+                    const phoneNumber = "420792305456"
                     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
                   }}
                 >
@@ -288,7 +288,7 @@ export default function HomePage() {
                   const message = encodeURIComponent(
                     "Dobrý den, mám zájem o Vaše služby. Můžeme si o tom pohovořit? Děkuji.",
                   )
-                  const phoneNumber = "420123456789"
+                  const phoneNumber = "420792305456"
                   window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
                 }}
               >
@@ -345,7 +345,7 @@ export default function HomePage() {
                     </div>
                     <div className="text-left">
                       <h3 className="font-semibold">WhatsApp</h3>
-                      <p className="text-muted-foreground">+420 123 456 789</p>
+                      <p className="text-muted-foreground">+420 792 305 456</p>
                     </div>
                   </div>
                 </div>
@@ -356,7 +356,7 @@ export default function HomePage() {
                     const message = encodeURIComponent(
                       "Dobrý den, mám zájem o Vaše služby. Můžeme si o tom pohovořit? Děkuji.",
                     )
-                    const phoneNumber = "420123456789"
+                    const phoneNumber = "420792305456"
                     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
                   }}
                 >

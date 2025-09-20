@@ -378,7 +378,7 @@ export default function TermsOfServicePage() {
                   <div className="p-4 bg-muted/30 rounded-lg">
                     <h3 className="font-semibold mb-2">Obecné dotazy</h3>
                     <p className="text-sm text-muted-foreground">info@replikanti.xyz</p>
-                    <p className="text-sm text-muted-foreground">+420 123 456 789</p>
+                    <p className="text-sm text-muted-foreground">+420 792 305 456</p>
                   </div>
                   <div className="p-4 bg-muted/30 rounded-lg">
                     <h3 className="font-semibold mb-2">Právní záležitosti</h3>

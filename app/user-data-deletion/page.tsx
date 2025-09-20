@@ -12,7 +12,7 @@ export default function UserDataDeletionPage() {
     const message = encodeURIComponent(
       "Dobrý den, chtěl/a bych požádat o smazání všech mých osobních údajů z vašich systémů. Rozumím, že tento proces je nevratný. Můžete mi prosím pomoci s touto žádostí? Děkuji.",
     )
-    const phoneNumber = "420123456789" // Nahraďte skutečným číslem
+    const phoneNumber = "420792305456" // Nahraďte skutečným číslem
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
   }
 
@@ -241,7 +241,7 @@ export default function UserDataDeletionPage() {
                     <Phone className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold">WhatsApp</h3>
-                      <p className="text-muted-foreground">+420 123 456 789</p>
+                      <p className="text-muted-foreground">+420 792 305 456</p>
                       <p className="text-xs text-muted-foreground">Dostupné 24/7</p>
                     </div>
                   </div>
