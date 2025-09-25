@@ -311,7 +311,7 @@ export default function PrivacyPolicyPage() {
                     <Phone className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold">Telefon</h3>
-                      <p className="text-muted-foreground">+420 792 305 456</p>
+                      <p className="text-muted-foreground">+420 704 229 269</p>
                     </div>
                   </div>
                 </div>

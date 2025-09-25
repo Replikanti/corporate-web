@@ -24,7 +24,7 @@ export function Navigation() {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Dobrý den, mám zájem o Vaše služby. Můžeme si o tom pohovořit? Děkuji.")
-    const phoneNumber = "420792305456" // Nahraďte skutečným číslem
+    const phoneNumber = "420704229269" // Nahraďte skutečným číslem
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
     setIsMenuOpen(false)
   }
